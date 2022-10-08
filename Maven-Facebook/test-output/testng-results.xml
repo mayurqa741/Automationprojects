@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-08T17:15:46 IST" name="Facebook_Suite" finished-at="2022-10-08T17:16:05 IST" duration-ms="18929">
+    <groups>
+    </groups>
+    <test started-at="2022-10-08T17:15:46 IST" name="Firefox test" finished-at="2022-10-08T17:16:01 IST" duration-ms="14909">
+      <class name="test.testNg">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.testNg@38cee291]" started-at="2022-10-08T17:15:46 IST" name="launchBrowser" finished-at="2022-10-08T17:15:51 IST" duration-ms="4394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMClassObjects()[pri:0, instance:test.testNg@38cee291]" started-at="2022-10-08T17:15:51 IST" name="createPOMClassObjects" finished-at="2022-10-08T17:15:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMClassObjects -->
+        <test-method is-config="true" signature="roomsPage()[pri:0, instance:test.testNg@38cee291]" started-at="2022-10-08T17:15:51 IST" name="roomsPage" finished-at="2022-10-08T17:15:55 IST" duration-ms="4955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roomsPage -->
+        <test-method signature="verifyTheHelpCenter()[pri:0, instance:test.testNg@38cee291]" started-at="2022-10-08T17:15:55 IST" name="verifyTheHelpCenter" finished-at="2022-10-08T17:15:57 IST" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheHelpCenter -->
+        <test-method is-config="true" signature="logOut(org.testng.ITestResult)[pri:0, instance:test.testNg@38cee291]" started-at="2022-10-08T17:15:57 IST" name="logOut" finished-at="2022-10-08T17:15:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheHelpCenter status=SUCCESS method=testNg.verifyTheHelpCenter()[pri:0, instance:test.testNg@38cee291] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="roomsPage()[pri:0, instance:test.testNg@38cee291]" started-at="2022-10-08T17:15:57 IST" name="roomsPage" finished-at="2022-10-08T17:15:59 IST" duration-ms="2556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roomsPage -->
+        <test-method signature="verifyTheReturnToMessengerButton()[pri:0, instance:test.testNg@38cee291]" started-at="2022-10-08T17:15:59 IST" name="verifyTheReturnToMessengerButton" finished-at="2022-10-08T17:16:00 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheReturnToMessengerButton -->
+        <test-method is-config="true" signature="logOut(org.testng.ITestResult)[pri:0, instance:test.testNg@38cee291]" started-at="2022-10-08T17:16:00 IST" name="logOut" finished-at="2022-10-08T17:16:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheReturnToMessengerButton status=SUCCESS method=testNg.verifyTheReturnToMessengerButton()[pri:0, instance:test.testNg@38cee291] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="removeObjects()[pri:0, instance:test.testNg@38cee291]" started-at="2022-10-08T17:16:00 IST" name="removeObjects" finished-at="2022-10-08T17:16:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeObjects -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:test.testNg@38cee291]" started-at="2022-10-08T17:16:00 IST" name="closeDriver" finished-at="2022-10-08T17:16:01 IST" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- test.testNg -->
+    </test> <!-- Firefox test -->
+    <test started-at="2022-10-08T17:15:46 IST" name="Chrome test" finished-at="2022-10-08T17:16:05 IST" duration-ms="18929">
+      <class name="test.testNg">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.testNg@1e1a0406]" started-at="2022-10-08T17:15:46 IST" name="launchBrowser" finished-at="2022-10-08T17:15:48 IST" duration-ms="1721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMClassObjects()[pri:0, instance:test.testNg@1e1a0406]" started-at="2022-10-08T17:15:48 IST" name="createPOMClassObjects" finished-at="2022-10-08T17:15:48 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMClassObjects -->
+        <test-method is-config="true" signature="roomsPage()[pri:0, instance:test.testNg@1e1a0406]" started-at="2022-10-08T17:15:48 IST" name="roomsPage" finished-at="2022-10-08T17:15:53 IST" duration-ms="4967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roomsPage -->
+        <test-method signature="verifyTheHelpCenter()[pri:0, instance:test.testNg@1e1a0406]" started-at="2022-10-08T17:15:53 IST" name="verifyTheHelpCenter" finished-at="2022-10-08T17:15:54 IST" duration-ms="1581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheHelpCenter -->
+        <test-method is-config="true" signature="logOut(org.testng.ITestResult)[pri:0, instance:test.testNg@1e1a0406]" started-at="2022-10-08T17:15:54 IST" name="logOut" finished-at="2022-10-08T17:15:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheHelpCenter status=SUCCESS method=testNg.verifyTheHelpCenter()[pri:0, instance:test.testNg@1e1a0406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="roomsPage()[pri:0, instance:test.testNg@1e1a0406]" started-at="2022-10-08T17:15:54 IST" name="roomsPage" finished-at="2022-10-08T17:16:01 IST" duration-ms="6446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roomsPage -->
+        <test-method signature="verifyTheReturnToMessengerButton()[pri:0, instance:test.testNg@1e1a0406]" started-at="2022-10-08T17:16:01 IST" name="verifyTheReturnToMessengerButton" finished-at="2022-10-08T17:16:05 IST" duration-ms="3829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheReturnToMessengerButton -->
+        <test-method is-config="true" signature="logOut(org.testng.ITestResult)[pri:0, instance:test.testNg@1e1a0406]" started-at="2022-10-08T17:16:05 IST" name="logOut" finished-at="2022-10-08T17:16:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheReturnToMessengerButton status=SUCCESS method=testNg.verifyTheReturnToMessengerButton()[pri:0, instance:test.testNg@1e1a0406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:test.testNg@1e1a0406]" started-at="2022-10-08T17:16:05 IST" name="closeDriver" finished-at="2022-10-08T17:16:05 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="removeObjects()[pri:0, instance:test.testNg@1e1a0406]" started-at="2022-10-08T17:16:05 IST" name="removeObjects" finished-at="2022-10-08T17:16:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeObjects -->
+      </class> <!-- test.testNg -->
+    </test> <!-- Chrome test -->
+  </suite> <!-- Facebook_Suite -->
+</testng-results>
